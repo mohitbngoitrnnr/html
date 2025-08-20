@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{background-color: aquamarine;}
+    </style>
+</head>
+<body>
+    <h1>java script assignment based on conditional branching</h1>
+    <h4>// create set of question as prompts <br>
+// You are to determine whether that person has eligibility to donate blood.
+<br>
+/*
+    1. Name<br>
+    2. Age<br>
+    3. bloodgroup<br>
+    4. bloodPressure<br>
+    5. isAlcoholConsumed<br>
+    6. diseases<br>
+    7. weight<br>
+<br>
+    Instruction:
+    - get these answers from prompt;
+    - based on the input, use conditional branching to check whether they have eligible to donate bloot.
+    - if not, disply the reson of rejecting elgibility
+
+*/</h4>
+
+
+<script>
+let name = prompt("enter your name");
+alert(`welcome ${name} `);
+let Age =  Number(prompt("enter your age"));
+if(Age>=18){
+    console.log("you are elible to donate blood");
+    alert("you are  eligible");
+}else
+{console.log("you are eligible");
+alert("you are not eligible");}
+
+let blood = prompt("enter your bloodgroup")
+console.log("this is blod group",blood);
+
+
+
+
+
+</script>
+</body>
+</html>
